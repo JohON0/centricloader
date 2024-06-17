@@ -7,12 +7,6 @@ import ctypes
 
 # @author JohON0
 
-def set_console_title(title):
-    ctypes.windll.kernel32.SetConsoleTitleW(title)
-
-new_title = "Centric Loader (gbxm soso)"
-set_console_title(new_title)
-
 banner = ("""
 
     ░█████╗░███████╗███╗░░██╗████████╗██████╗░██╗░█████╗░
